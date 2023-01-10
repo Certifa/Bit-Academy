@@ -1,0 +1,58 @@
+body {
+  background-color: lightgray;
+}
+
+.headers {
+  background-color: ghostwhite;
+  height: 50px;
+  width: 50px;
+}
+
+.red {
+  background-color: red;
+  border: solid 2px;
+  border-color: darkblue;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+
+.purple {
+  background-color: plum;
+  border: solid 2px;
+  border-color: darkblue;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+
+.blue {
+  background-color: lightskyblue;
+  border: solid 2px;
+  border-color: darkblue;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+  border: solid 2px;
+  border-color: darkblue;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: greenyellow;
+}
+
+tr a {
+  display: block;
+}

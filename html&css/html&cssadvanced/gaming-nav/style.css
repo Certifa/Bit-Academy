@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: lawngreen;
+}
+
+.navbar p {
+  font-weight: 600;
+}
+
+.content {
+  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20%;
+}
+
+#breaking {
+  position: fixed;
+  top: 50px;
+  left: 300px;
+  width: 60%;
+  text-align: center;
+  order: 2;
+}
+
+#breaking h3 {
+  font-size: 50px;
+}
+
+.news {
+  width: 30%;
+}
+
+.news:nth-child(1) {
+  width: 100%;
+}
+
+.news:nth-child(2) {
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  width: 60%;
+  text-align: center;
+  order: 2;
+}
+
+.news:nth-child(3) {
+  position: fixed;
+  top: 520px;
+  left: 300px;
+}
+
+.news:nth-child(4) {
+  position: fixed;
+  top: 520px;
+  left: 800px;
+}

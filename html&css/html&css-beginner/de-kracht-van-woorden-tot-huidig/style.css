@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(206, 255, 196);
+}
+
+h1 {
+  color: red;
+  font-size: 26px;
+}
+
+.txt {
+  color: peru;
+}
+
+.Overmij {
+  background-color: rgb(164, 224, 236);
+}
+
+h2 {
+  color: rgb(0, 132, 255);
+  font-size: 18px;
+}
+
+ul {
+  color: green;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+ol {
+  color: green;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}

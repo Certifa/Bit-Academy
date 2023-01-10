@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(206, 255, 196);
+}
+
+h1 {
+  color: red;
+  font-size: 26px;
+}
+
+.Overmij {
+  background-color: rgb(164, 224, 236);
+}
+
+h2 {
+  color: rgb(0, 132, 255);
+  font-size: 18px;
+}
+
+ul {
+  color: green;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+ol {
+  color: green;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+nav {
+  padding: 5px;
+  background-color: #fce4e6;
+  text-align: center;
+}
+
+footer {
+  height: 80px;
+  background-color: beige;
+  text-align: center;
+  line-height: 70px;
+}

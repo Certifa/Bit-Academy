@@ -1,0 +1,40 @@
+#naam {
+  display: flex;
+}
+
+#email {
+  display: flex;
+}
+
+#telefoonnummer {
+  display: flex;
+}
+
+#password {
+  display: flex;
+}
+
+#provincie {
+  display: flex;
+}
+
+fieldset {
+  border-style: none;
+}
+
+#review {
+  outline: none;
+  border: 3px solid red;
+}
+
+#review:focus {
+  outline: none;
+  border: 3px solid green;
+}
+
+.button {
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 171px;
+}

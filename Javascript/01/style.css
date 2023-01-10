@@ -1,0 +1,32 @@
+h1 {
+  color: goldenrod;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:focus {
+  outline: none;
+}

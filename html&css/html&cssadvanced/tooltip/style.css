@@ -1,0 +1,32 @@
+.tooltip {
+  position: -webkit-sticky;
+  position: sticky;
+  display: block;
+}
+
+.tooltip-content {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  margin-top: 25px;
+}
+
+.icon {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon:hover + .tooltip-content {
+  background-color: black;
+  color: aliceblue;
+  visibility: visible;
+}
+
+.content {
+  position: fixed;
+  /* border: solid 5px blue; */
+}

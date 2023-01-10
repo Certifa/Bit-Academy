@@ -1,0 +1,65 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+  width: 50%;
+  flex-shrink: 1;
+  margin-right: 150px;
+  margin-left: 40px;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: auto;
+}
+
+.kijkwijzer {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+  color: white;
+  width: 50%;
+  flex-grow: 1;
+  margin-left: 150px;
+  margin-right: 40px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hackers_greed {
+  height: 335px;
+  width: 335px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 > img {
+  margin: 0px 4px;
+}
+
+.container-main > p {
+  display: flex;
+  text-align: justify;
+}
